@@ -78,10 +78,10 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **material** | **purpose** | **price** | **link** |
 |:--:|:--:|:--:|:--:|
-| safety glasses | eye protection | $2.19 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| solderless breadboard | What the item is used for | $9.98 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| breadboard jumper wires assorted kit | What the item is used for | $13.35 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| precision wire stripper | What the item is used for | $5.50 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| safety glasses | eye protection | $2.19 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.amazon.com/MCR-Safety-CL010-Checklite-Glasses/dp/B009SRXSUA/ref=sr_1_4?crid=2Y64BGOBG6GJH&keywords=mcr+safety+cl110+checklite+safety+glasses+with+clear+frame&qid=1688655520&sprefix=mcr+safety+cl110+checklite+safety+glasses+with+clear+frame%2Caps%2C144&sr=8-4)"> Link </a> |
+| solderless breadboard | What the item is used for | $9.98 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.amazon.com/EL-CP-003-Breadboard-Solderless-Distribution-Connecting/dp/B01EV6LJ7G/ref=sr_1_3?crid=1ELWX0HNETCH&keywords=elegoo+3pcs+breadboard+830+point+solderless+prototype+pcb+board+kit&qid=1688655674&sprefix=elegoo+3+pcs+brea%2Caps%2C166&sr=8-3)"> Link </a> |
+| breadboard jumper wires assorted kit | What the item is used for | $13.35 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.amazon.com/QISF-Breadboard-Preformed-Anti-Static-Electronics/dp/B088WNZXFQ/ref=sr_1_5?crid=SX3Y99PVBCPD&keywords=breadboard+jumper+wire+assorted+kit&qid=1688655766&sprefix=breadboard+jumper+wire+assorted+kit%2Caps%2C129&sr=8-5)"> Link </a> |
+| precision wire stripper | What the item is used for | $5.50 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.amazon.com/Eclipse-CP-301G-ProsKit-Precision-Stripper/dp/B005JVJDIA/ref=sr_1_2?crid=1EBVRQ45Q1ML9&keywords=eclipse+tools+cp-301g+pro%27skit+precision+wire+stripper%2C+30-20+awg&qid=1688655846&sprefix=eclipse+tools+%2Caps%2C151&sr=8-2)"> Link </a> |
 | gorilla dual temp mini hot glue gun kit | What the item is used for | $17.99 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | circuit board breadboard | What the item is used for | $6.99 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | female pin headers | What the item is used for | $6.99 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
@@ -92,7 +92,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 | pitch single row pin header strip | What the item is used for | $5.49 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | LED dlode lights assortment kit | What the item is used for | $5.88 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | arduino micro with headers | What the item is used for | $17.95 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| digital multimeter | What the item is used for | $12.49 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| digital multimeter | What the item is used for | $12.49 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.amazon.com/Etekcity-Multimeter-MSR-R500-Electronic-Multimeters/dp/B01N9QW620/ref=sr_1_1_sspa?crid=2E8YMTD5RKZD5&keywords=etekcity%2Bdigital%2Bmultimeter&qid=1688655187&sprefix=etekcity%2Bdigital%2Bmultimeter%2Caps%2C166&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1)"> Link </a> |
 | portable charging bank | What the item is used for | $17.99 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | soldering iron kit | What the item is used for | $19.99 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
