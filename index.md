@@ -116,57 +116,7 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
-const int trigPin = 12;
-const int echoPin = 10;
-const int switchPin = 5;
 
-void setup() {
-  Serial.begin(9600);
-  pinMode(trigPin, OUTPUT);
-  pinMode(echoPin, INPUT);
-  pinMode(switchPin, OUTPUT);
-  tone(switchPin, 1000, 2000);
-}
-
-void loop() {
-  long duration, inches, cm;
-  digitalWrite(trigPin, LOW);
-  delayMicroseconds(2);
-  digitalWrite(trigPin, HIGH);
-  delayMicroseconds(10);
-  digitalWrite(trigPin, LOW);
-
-  duration = pulseIn(echoPin, HIGH);
-
-  inches = microsecondsToInches(duration);
-  cm = microsecondsToCentimeters(duration);
-
-  Serial.print(inches);
-  Serial.print("in, ");
-  Serial.print(cm);
-  Serial.print("cm");
-  Serial.println();
-
-  if(cm < 7 && inches < 4)
-  {
-    tone(switchPin, 784);
-    digitalWrite(switchPin, HIGH);
-  }
-  else
-  {
-    noTone(switchPin);
-    digitalWrite(switchPin, LOW);
-  }
-  delay(100);
-}
-
-long microsecondsToInches(long microseconds) {
-    return microseconds / 74 / 2;
-}
-
-long microsecondsToCentimeters(long microseconds) {
-    return microseconds / 29 / 2;
-}
 ```
 
 # Materials Used
