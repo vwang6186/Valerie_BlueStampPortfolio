@@ -26,6 +26,101 @@ For your final milestone, explain the outcome of your project. Key details to in
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
 
+Code (Final Milestone):
+```c++
+const int trigPin = A3;
+const int echoPin = A4;
+const int switchPin = 5;
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+  pinMode(switchPin, OUTPUT);
+  tone(switchPin, 1000, 2000);
+}
+
+void loop() {
+  long duration, inches, cm;
+
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(2);
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin, LOW);
+
+  duration = pulseIn(echoPin, HIGH);
+
+  inches = microsecondsToInches(duration);
+  cm = microsecondsToCentimeters(duration);
+
+  Serial.print(inches);
+  Serial.print("in, ");
+  Serial.print(cm);
+  Serial.print("cm");
+  Serial.println();
+
+  if(cm <= 14 && inches <= 5)
+  {
+    tone(switchPin, 784);
+    digitalWrite(switchPin, HIGH);
+    delay(1000);
+    Serial.println("in condition 1");
+  }
+    else if(cm <= 24 && inches <= 10)
+    {
+       tone(switchPin, 698);
+       digitalWrite(switchPin, HIGH);
+       delay(1000);
+       Serial.println("in condition 2");
+    }
+    else if(cm <= 34 && inches <= 15)
+    {
+      tone(switchPin, 659);
+      digitalWrite(switchPin, LOW);
+      delay(1000);
+      Serial.println("in condition 3");
+    }
+    else if(cm <= 44 && inches <= 20)
+    {
+      tone(switchPin, 587);
+      digitalWrite(switchPin, LOW);
+      delay(1000);
+      Serial.println("in condition 4");
+    }
+    else if(cm <= 55 && inches <= 25)
+    {
+      tone(switchPin, 523);
+      digitalWrite(switchPin, LOW);
+      delay(1000);
+      Serial.println("in condition 5");
+    }
+    else if(cm <= 65 && inches <= 30)
+    {
+      tone(switchPin, 494);
+      digitalWrite(switchPin, LOW);
+      delay(1000);
+      Serial.println("in condition 6");
+    }
+  else
+  {
+    noTone(switchPin);
+    digitalWrite(switchPin, LOW);
+  }
+
+  delay(100);
+}
+
+long microsecondsToInches(long microseconds) {
+  return microseconds / 74 / 2;
+}
+
+long microsecondsToCentimeters(long microseconds) {
+  return microseconds / 29 / 2;
+}
+
+```
+
 
 
 # Second Milestone
@@ -40,7 +135,7 @@ For your second milestone, explain what you've worked on since your previous mil
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone
 
-Code:
+Code (Second Milestone):
 ```c++
 const int trigPin = 12;
 const int echoPin = 10;
@@ -145,7 +240,7 @@ For your first milestone, describe what your project is and how you plan to buil
 - Challenges you're facing and solving in your future milestones
 - What your plan is to complete your project
 
-Code:
+Code (First Milestone):
 ```c++
 const int trigPin = 12;
 const int echoPin = 10;
