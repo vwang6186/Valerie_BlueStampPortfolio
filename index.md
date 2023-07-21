@@ -26,7 +26,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
 
-Code (Final Milestone):
+Code Added/Altered (Final Milestone):
 ```c++
 const int trigPin = A3;
 const int echoPin = A4;
@@ -41,25 +41,6 @@ void setup() {
 }
 
 void loop() {
-  long duration, inches, cm;
-
-  digitalWrite(trigPin, LOW);
-  delayMicroseconds(2);
-  digitalWrite(trigPin, HIGH);
-  delayMicroseconds(10);
-  digitalWrite(trigPin, LOW);
-
-  duration = pulseIn(echoPin, HIGH);
-
-  inches = microsecondsToInches(duration);
-  cm = microsecondsToCentimeters(duration);
-
-  Serial.print(inches);
-  Serial.print("in, ");
-  Serial.print(cm);
-  Serial.print("cm");
-  Serial.println();
-
   if(cm <= 14 && inches <= 5)
   {
     tone(switchPin, 784);
@@ -107,18 +88,7 @@ void loop() {
     noTone(switchPin);
     digitalWrite(switchPin, LOW);
   }
-
   delay(100);
-}
-
-long microsecondsToInches(long microseconds) {
-  return microseconds / 74 / 2;
-}
-
-long microsecondsToCentimeters(long microseconds) {
-  return microseconds / 29 / 2;
-}
-
 ```
 
 
@@ -135,12 +105,11 @@ For your second milestone, explain what you've worked on since your previous mil
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone
 
-Code (Second Milestone):
+Code Added/Altered (Second Milestone):
 ```c++
 const int trigPin = 12;
 const int echoPin = 10;
 const int switchPin = 5;
-
 
 void setup() {
   Serial.begin(9600);
@@ -151,26 +120,6 @@ void setup() {
 }
 
 void loop() {
- 
-  long duration, inches, cm;
-
-  digitalWrite(trigPin, LOW);
-  delayMicroseconds(2);
-  digitalWrite(trigPin, HIGH);
-  delayMicroseconds(10);
-  digitalWrite(trigPin, LOW);
-
-  duration = pulseIn(echoPin, HIGH);
-
-  inches = microsecondsToInches(duration);
-  cm = microsecondsToCentimeters(duration);
-
-  Serial.print(inches);
-  Serial.print("in, ");
-  Serial.print(cm);
-  Serial.print("cm");
-  Serial.println();
-
   if(cm <= 14 && inches <= 5)
   {
     tone(switchPin, 784);
@@ -213,17 +162,7 @@ void loop() {
     noTone(switchPin);
     digitalWrite(switchPin, LOW);
   }
-
   delay(100);
-}
-
-long microsecondsToInches(long microseconds) {
-  return microseconds / 74 / 2;
-}
-
-long microsecondsToCentimeters(long microseconds) {
-  return microseconds / 29 / 2;
-}
 ```
 
 # First Milestone
@@ -240,7 +179,7 @@ For your first milestone, describe what your project is and how you plan to buil
 - Challenges you're facing and solving in your future milestones
 - What your plan is to complete your project
 
-Code (First Milestone):
+Code Added/Altered (First Milestone):
 ```c++
 const int trigPin = 12;
 const int echoPin = 10;
@@ -255,24 +194,6 @@ void setup() {
 }
 
 void loop() {
-  long duration, inches, cm;
-  digitalWrite(trigPin, LOW);
-  delayMicroseconds(2);
-  digitalWrite(trigPin, HIGH);
-  delayMicroseconds(10);
-  digitalWrite(trigPin, LOW);
-
-  duration = pulseIn(echoPin, HIGH);
-
-  inches = microsecondsToInches(duration);
-  cm = microsecondsToCentimeters(duration);
-
-  Serial.print(inches);
-  Serial.print("in, ");
-  Serial.print(cm);
-  Serial.print("cm");
-  Serial.println();
-
   if(cm < 7 && inches < 4)
   {
     tone(switchPin, 784);
@@ -284,15 +205,6 @@ void loop() {
     digitalWrite(switchPin, LOW);
   }
   delay(100);
-}
-
-long microsecondsToInches(long microseconds) {
-    return microseconds / 74 / 2;
-}
-
-long microsecondsToCentimeters(long microseconds) {
-    return microseconds / 29 / 2;
-}
 ```
 
 
@@ -301,11 +213,46 @@ long microsecondsToCentimeters(long microseconds) {
 <img src="condenseddiagram.png" width = "1000">
 
 
-# Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
-
+# Base Code
 ```c++
+const int pingPin = 7;
 
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  long duration, inches, cm;
+
+  pinMode(pingPin, OUTPUT);
+  digitalWrite(pingPin, LOW);
+  delayMicroseconds(2);
+  digitalWrite(pingPin, HIGH);
+  delayMicroseconds(5);
+  digitalWrite(pingPin, LOW);
+
+  pinMode(pingPin, INPUT);
+  duration = pulseIn(pingPin, HIGH);
+
+  inches = microsecondsToInches(duration);
+  cm = microsecondsToCentimeters(duration);
+
+  Serial.print(inches);
+  Serial.print("in, ");
+  Serial.print(cm);
+  Serial.print("cm");
+  Serial.println();
+
+  delay(100);
+}
+
+long microsecondsToInches(long microseconds) {
+  return microseconds / 74 / 2;
+}
+
+long microsecondsToCentimeters(long microseconds) {
+  return microseconds / 29 / 2;
+}
 ```
 
 # Materials Used
