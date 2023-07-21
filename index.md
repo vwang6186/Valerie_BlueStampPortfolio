@@ -12,7 +12,7 @@ You should comment out all portions of your portfolio that you have not complete
 | Valerie W | Westmont | Computer Science | Incoming Senior
 
 
-![Headstone Image](portrait.png)
+<img src="portrait.png" width = "650">
   
 # Final Milestone
 
