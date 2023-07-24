@@ -256,9 +256,6 @@ long microsecondsToCentimeters(long microseconds) {
 ```
 
 # Materials Used
-Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
-Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
-
 | **material** | **price** | **link** |
 |:--:|:--:|:--:|
 | safety glasses | $2.19 | <a href="https://www.amazon.com/MCR-Safety-CL010-Checklite-Glasses/dp/B009SRXSUA/ref=sr_1_4crid=2Y64BGOBG6GJH&keywords=mcr+safety+cl110+checklite+safety+glasses+with+clear+frame&qid=1688655520&sprefix=mcr+safety+cl110+checklite+safety+glasses+with+clear+frame%2Caps%2C144&sr=8-4"> Link </a> |
