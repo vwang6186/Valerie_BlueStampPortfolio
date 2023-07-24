@@ -95,9 +95,10 @@ void loop() {
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QIRJv3blXDk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For my second milestone I wanted to further improve my code by allowing the module to produce different notes depending on the distance between the object and sensor. On my first attempt I had parameter errors in my code, and the buzzer was unable to perform different tones, persistently playing only one tone. After realizing the error, I changed the parameters in my code so that the buzzer was able to produce the different tones relative to the distance sensed between the user and obstacle.
+<p></p>For my second milestone I wanted to further improve my code by allowing the module to produce different notes depending on the distance between the object and sensor. On my first attempt I had parameter errors in my code, and the buzzer was unable to perform different tones, persistently playing only one tone. After realizing the error, I changed the parameters in my code so that the buzzer was able to produce the different tones relative to the distance sensed between the user and obstacle.
 
-Code Added/Altered (Second Milestone):
+<p></p>Code Added/Altered (Second Milestone):
+
 ```c++
 const int trigPin = 12;
 const int echoPin = 10;
@@ -165,10 +166,10 @@ void loop() {
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ViQxMdRthm0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For my first milestone I attempted to construct one module of my project straight on a perfboard, but failed astronomically on both understanding how everything installs and connects together. So, I decided to transfer my work from a perfboard to a breadboard to achieve a deeper understanding of each component and how they should connect all together. I watched a Youtube explanation on the functionality of breadboards, and my program director taught me how to solder wires with different cores. After gaining useful knowledge, I was able to apply the insight into successfully building a functioning module onto a breadboard. Besides the hardware engineering, through Arduino, I was able to utilize the Ping example program to trigger the vibrating motor and buzzer. However, the buzzer was unable to make any sound except a faint clicking. I did some research on the difference in coding different types of buzzers, and after research, I was able to alter my code so that the buzzer was able to make the desired sound properly. 
+<p></p>For my first milestone I attempted to construct one module of my project straight on a perfboard, but failed astronomically on both understanding how everything installs and connects together. So, I decided to transfer my work from a perfboard to a breadboard to achieve a deeper understanding of each component and how they should connect all together. I watched a Youtube explanation on the functionality of breadboards, and my program director taught me how to solder wires with different cores. After gaining useful knowledge, I was able to apply the insight into successfully building a functioning module onto a breadboard. Besides the hardware engineering, through Arduino, I was able to utilize the Ping example program to trigger the vibrating motor and buzzer. However, the buzzer was unable to make any sound except a faint clicking. I did some research on the difference in coding different types of buzzers, and after research, I was able to alter my code so that the buzzer was able to make the desired sound properly. 
 
+<p></p>Code Added/Altered (First Milestone):
 
-Code Added/Altered (First Milestone):
 ```c++
 const int trigPin = 12;
 const int echoPin = 10;
