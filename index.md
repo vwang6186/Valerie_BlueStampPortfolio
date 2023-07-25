@@ -207,6 +207,13 @@ void loop() {
 <img src="widediagram.png" width = "1000">
 <img src="condenseddiagram.png" width = "1000">
 
+<p></p><p>
+ <img src="frontviewmod.png" width = "400"> 
+ <img src="backviewmod.png" width = "455"> 
+ <img src="frontviewmod2.png" width = "404"> 
+ <img src="backviewmod2.png" width = "400"> 
+</p>
+
 
 # Base Code
 ```c++
