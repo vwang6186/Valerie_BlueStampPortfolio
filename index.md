@@ -157,14 +157,11 @@ void loop() {
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ViQxMdRthm0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<p>
+<p></p><p>
   <img src="birdviewm1.png" width = "400">
   <img src="sideviewm1.png" width = "475">
+    <img src="frontviewm1.png" width = "400">
 </p> 
-
-<p float="center">
-  <img src="frontviewm1.png" width = "400">
-</p>
 
 
 <p></p>For my first milestone I attempted to construct one module of my project straight on a perfboard, but failed astronomically on both understanding how everything installs and connects together. So, I decided to transfer my work from a perfboard to a breadboard to achieve a deeper understanding of each component and how they should connect all together. I watched a Youtube explanation on the functionality of breadboards, and my program director taught me how to solder wires with different cores. After gaining useful knowledge, I was able to apply the insight into successfully building a functioning module onto a breadboard. Besides the hardware engineering, through Arduino, I was able to utilize the Ping example program to trigger the vibrating motor and buzzer. However, the buzzer was unable to make any sound except a faint clicking. I did some research on the difference in coding different types of buzzers, and after research, I was able to alter my code so that the buzzer was able to make the desired sound properly. 
