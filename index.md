@@ -12,8 +12,6 @@ Wearable module that uses an ultrasonic sensor to detect the distance between a 
   
 # Final Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZdI9HnxM124" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <p></p>For my final milestone I needed to completely transfer my understandings on a breadboard back onto a perfboard, which in other words, was basically the final project. Unlike a breadboard, I am not able to conveniently stick wires where I need them to be, and instead I need to actually physically angle and solder wires together. Additionally, the perfboard is 5 cm x 3 cm, which is a reasonably small surface area. On my first attempt, treacherously, but almost finally building the module, the wires I soldered began to snap and the wires refused to cooperate in any way. Needing to make a pivotal decision, I committed to restarting the entire module and starting from scratch yet again. On my second attempt, I had a much better concept and skill on how to solder with technique and strategy. Thankfully, I was able to successfully construct a functioning module. Overall, my most memorable achievement was soldering because of how frustrating the experience was. However, despite the frustration, I still managed to solder wires sufficiently to create a full-functioning third eye for the blind. After these three weeks, I realized how important details are in engineering. From hardware to software engineering, you really have to pay attention to every small detail so that your program or project can function properly. Having a solid understanding of what you are actually doing is also super crucial because although we dive head-first into new experiences all the time, returning to the basics and progressing from there makes life easier. With my experience at BlueStamp engineering, I intend to apply my newfound sense of perseverance and interest in engineering to further my journey in the engineering field.
@@ -88,8 +86,6 @@ void loop() {
 
 # Second Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QIRJv3blXDk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <p></p>For my second milestone I wanted to further improve my code by allowing the module to produce different notes depending on the distance between the object and sensor. On my first attempt I had parameter errors in my code, and the buzzer was unable to perform different tones, persistently playing only one tone. After realizing the error, I changed the parameters in my code so that the buzzer was able to produce the different tones relative to the distance sensed between the user and obstacle.
@@ -156,8 +152,6 @@ void loop() {
 ```
 
 # First Milestone
-
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_SxStWX_lAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
