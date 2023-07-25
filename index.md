@@ -209,9 +209,9 @@ void loop() {
 
 <p></p><p>
  <img src="frontviewmod.png" width = "400"> 
- <img src="backviewmod.png" width = "455"> 
- <img src="frontviewmod2.png" width = "404"> 
- <img src="backviewmod2.png" width = "400"> 
+ <img src="backviewmod1.png" width = "414"> 
+ <img src="frontviewmod2.png" width = "409"> 
+ <img src="backviewmod2.png" width = "405"> 
 </p>
 
 
