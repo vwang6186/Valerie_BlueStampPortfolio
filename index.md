@@ -260,7 +260,7 @@ long microsecondsToCentimeters(long microseconds) {
 # Materials Used
 | **material** | **price** | **link** |
 |:--:|:--:|:--:|
-safety glasses | $2.19 | <a href="https://www.amazon.com/MCR-Safety-CL010-Checklite-Glasses/dp/B009SRXSUA/ref=sr_1_4crid=2Y64BGOBG6GJH&keywords=mcr+safety+cl110+checklite+safety+glasses+with+clear+frame&qid=1688655520&sprefix=mcr+safety+cl110+checklite+safety+glasses+with+clear+frame%2Caps%2C144&sr=8-4"> link </a> 
+|safety glasses | $2.19 | <a href="https://www.amazon.com/MCR-Safety-CL010-Checklite-Glasses/dp/B009SRXSUA/ref=sr_1_4crid=2Y64BGOBG6GJH&keywords=mcr+safety+cl110+checklite+safety+glasses+with+clear+frame&qid=1688655520&sprefix=mcr+safety+cl110+checklite+safety+glasses+with+clear+frame%2Caps%2C144&sr=8-4"> link </a> 
 solderless breadboard | $9.98 | <a href="https://www.amazon.com/EL-CP-003-Breadboard-Solderless-DistributionConnecting/dp/B01EV6LJ7G/ref=sr_1_3crid=1ELWX0HNETCH&keywords=elegoo+3pcs+breadboard+830+point+solderless+prototype+pcb+board+kit&qid=1688655674&sprefix=elegoo+3+pcs+brea%2Caps%2C166&sr=8-3"> link </a> 
 breadboard jumper wires assorted kit | $13.35 | <a href="https://www.amazon.com/QISF-Breadboard-PreformedAntiStaticElectronics/dp/B088WNZXFQ/ref=sr_1_5crid=SX3Y99PVBCPD&keywords=breadboard+jumper+wire+assorted+kit&qid=1688655766&sprefix=breadboard+jumper+wire+assorted+kit%2Caps%2C129&sr=8-5"> link </a> 
 precision wire stripper | $5.50 | <a href="https://www.amazon.com/Eclipse-CP-301G-ProsKit-Precision-Stripper/dp/B005JVJDIA/ref=sr_1_2?crid=1EBVRQ45Q1ML9&keywords=eclipse+tools+cp-301g+pro%27skit+precision+wire+stripper%2C+30-20+awg&qid=1688655846&sprefix=eclipse+tools+%2Caps%2C151&sr=8-2"> link </a> 
